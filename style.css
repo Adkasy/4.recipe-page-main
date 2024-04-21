@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12.7px;
+    color: hsl(24, 5%, 18%);
+    line-height: 1.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: auto;
+    max-width: 490px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 25px;
+}
+
+.title-desc-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px
+}
+
+.title-desc-info>h1 {
+    font-size: 25px;
+}
+
+.title-desc-info>p {
+    font-size: 12.5px;
+    margin-bottom: 20px;
+}
+
+.recipe-image {
+    max-height: 300px;
+    width: auto;
+    border-radius: 12px;
+}
+
+.recipe-information {
+    background-color: hsl(330, 100%, 98%);
+    padding: 16px 25px;
+    border-radius: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-rose {
+    color: hsl(330, 59%, 40%)
+}
+
+.text-brown {
+    color: #904e32
+}
+
+.text-young-serif {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+h1, h2, p, ul, ol, li {
+    margin: 0;
+}
+
+ul, ol {
+    padding-left: 12px;
+    margin-left: 12px;
+}
+
+ul li, ol li {
+    line-height: 2;
+}
+
+.recipe-information li::marker {
+    color: hsl(330, 59%, 40%)
+}
+
+li::marker {
+    color: #904e32;
+    font-weight: bolder;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-bottom: 1px solid rgba(233, 167, 139, 0.2);
+    padding: 8px;
+    text-align: start;
+    padding-left: 23px;
+}
+
+th {
+    color: #904e32;
+}
+
+tr:last-child td, tr:last-child th {
+    border-bottom: none;
+}
